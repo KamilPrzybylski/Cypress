@@ -2,7 +2,7 @@
 
 Scenariusze:
 1. Logowanie na stronie sklepu
-	1.1 Poprawne dane
+	\n1.1 Poprawne dane
 	1.2 Złe dane
 
 2. Logowanie na stronie admina
