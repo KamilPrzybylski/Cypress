@@ -1,7 +1,7 @@
 # Cypress
 
 Scenariusze:
-1. Logowanie na stronie sklepu
+1. Logowanie na stronie sklepu<br>
    1.1 Poprawne dane
    1.2 Złe dane
 
