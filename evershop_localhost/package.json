@@ -13,5 +13,8 @@
   "description": "",
   "dependencies": {
     "@evershop/evershop": "^1.2.1"
+  },
+  "devDependencies": {
+    "cypress": "^13.16.0"
   }
 }
