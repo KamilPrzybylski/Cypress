@@ -24,6 +24,12 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add('selectorContains', (selector, content) => {
-    return cy.get(`.${selector}`).contains(`${content}`)
-});
+Cypress.Commands.add('classContains', (selector, content) => {
+    cy.get(`.${selector}`).contains(`${content}`)
+})
+
+Cypress.Commands.add('login', (email, password) => {
+    cy.get('input[name="email"]').type(email)
+    cy.get('input[name="password"]').type(password)
+    cy.get('button[type="submit"]').click()
+})
