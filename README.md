@@ -27,7 +27,7 @@ Scenariusze:
 Aby uruchomić testy należy:<br>
     - w cmd w folderze projektu (/evershop_localhost) wpisać komendę:<br>
        - npx cypress open<br>
-    - kliknąć przycisk do testowania e2e
-    - wybrać przeglądarkę
+    - kliknąć przycisk do testowania e2e<br>
+    - wybrać przeglądarkę<br>
     - wybrać scenariusz testowy do uruchomienia
    
