@@ -16,13 +16,9 @@ Scenariusze:
    3.2 Błędne dane<br>
    3.3 Niepoprawny email
 
-4. Utworzenie konta<br>
-   4.1 Poprawne dane<br>
-   4.2 Złe dane (za krótkie hasło)
-
-5. Koszyk<br>
-   5.1 Czy dodany produkt jest w koszyku<br>
-   5.2 Czy usuwa produkt z koszyka
+4. Koszyk<br>
+   4.1 Czy dodany produkt jest w koszyku<br>
+   4.2 Czy usuwa produkt z koszyka
 
 Aby uruchomić testy należy:<br>
     - w cmd w folderze projektu (/evershop_localhost) wpisać komendę:<br>
