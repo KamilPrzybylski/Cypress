@@ -23,3 +23,11 @@ Scenariusze:
 5. Koszyk<br>
    5.1 Czy dodany produkt jest w koszyku<br>
    5.2 Czy usuwa produkt z koszyka
+
+Aby uruchomić testy należy:<br>
+    - w cmd w folderze projektu (/evershop_localhost) wpisać komendę:<br>
+       - npx cypress open<br>
+    - kliknąć przycisk do testowania e2e
+    - wybrać przeglądarkę
+    - wybrać scenariusz testowy do uruchomienia
+   

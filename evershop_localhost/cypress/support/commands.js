@@ -25,7 +25,7 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 Cypress.Commands.add('classContains', (selector, content) => {
-    cy.get(`.${selector}`).contains(`${content}`)
+    cy.get(`.${selector}`).should('contain', `${content}`)
 })
 
 Cypress.Commands.add('login', (email, password) => {

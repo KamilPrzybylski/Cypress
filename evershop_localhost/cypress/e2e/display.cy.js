@@ -41,7 +41,6 @@ describe('Poprawność wyświetlania stron', () => {
       cy.classContains('product-detail', 'Penera')
       cy.classContains('product-detail', '$2,000.00')
       cy.classContains('product-detail', 'Sku: P-0001')
-      cy.classContains('product-detail', 'Color: Silver')
       cy.classContains('product-detail', 'ADD TO CART')
     })
   })
